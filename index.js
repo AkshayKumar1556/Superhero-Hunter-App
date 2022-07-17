@@ -57,9 +57,9 @@ function getsearchsuperhero() {
 
                 // // function for info of superhero 
 
-                // heroCard.onclick = function () {
-                //     selectedHero(hero.id)
-                // };
+                heroCard.onclick = function () {
+                    selectedHero(hero.id)
+                };
 
 
                 var nameOfHero = document.createElement('div');
